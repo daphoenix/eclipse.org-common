@@ -11,7 +11,7 @@
  *******************************************************************************/
 
 function solstice_variables(&$variables) {
-	$App = $variables['page']['App'];
+	global $App;
 
 	$base_url = $App->getWWWPrefix() . '/';
 	$Nav =  $variables['page']['Nav'];
